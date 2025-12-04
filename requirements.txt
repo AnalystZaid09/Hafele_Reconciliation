@@ -5,5 +5,7 @@ numpy
 python-dotenv
 rapidfuzz
 openpyxl
-pdf2image      # optional if you later use image-based models
+azure-ai-documentintelligence==1.0.0b4
+azure-core
+
 
