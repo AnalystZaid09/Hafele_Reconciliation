@@ -1,0 +1,8 @@
+streamlit
+pdfplumber
+pandas
+numpy
+scikit-learn
+rapidfuzz
+openpyxl
+pdf2image      # optional if you later use image-based models
