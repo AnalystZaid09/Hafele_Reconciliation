@@ -36,7 +36,6 @@ with right:
     show_only_mismatches = st.checkbox("Show only mismatches in table", value=False)
     abs_tol = st.number_input("Amount absolute tolerance", value=1.0, step=0.5)
     rel_tol = st.number_input("Amount relative tolerance (fraction)", value=0.005, step=0.001, format="%.4f")
-    st.write("Azure creds MUST be configured on server.")
 run_button = st.button("Run Reconciliation")
 
 # ---------- Helpers ----------
@@ -517,4 +516,5 @@ if run_button:
     )
 
     st.success("Reconciliation complete — improved UI + styled Excel ready for download.")
+
 
