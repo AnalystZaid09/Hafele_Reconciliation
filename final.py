@@ -23,7 +23,6 @@ st.set_page_config(page_title="Hafele Invoice ⇄ Excel Reconciliation", layout=
 st.title("Hafele Invoice ⇄ Excel Reconciliation")
 st.markdown(
     "Upload one invoice **PDF** and one **Excel** (items/PO sheet). "
-    "Azure credentials are read from server environment variables (AZURE_ENDPOINT, AZURE_KEY)."
 )
 
 # ---------- Inputs ----------
@@ -518,3 +517,4 @@ if run_button:
     )
 
     st.success("Reconciliation complete — improved UI + styled Excel ready for download.")
+
