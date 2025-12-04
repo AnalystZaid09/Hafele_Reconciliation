@@ -1,11 +1,11 @@
 streamlit
-pdfplumber
-pandas
-numpy
 python-dotenv
-rapidfuzz
+pandas
 openpyxl
-azure-ai-documentintelligence==1.0.0b4
+rapidfuzz
 azure-core
+azure-ai-documentintelligence
+
+
 
 
